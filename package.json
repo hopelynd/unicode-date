@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "author": "陈立恒 <chenliheng@youlai.cn>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
+    "react-copy-to-clipboard": "^5.1.0",
+    "umi": "^4.0.80"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-copy-to-clipboard": "^5.0.4",
+    "@types/react-dom": "^18.0.11",
+    "@umijs/plugins": "^4.0.80",
+    "typescript": "^5.0.3"
+  }
+}
