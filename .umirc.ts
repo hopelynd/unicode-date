@@ -5,4 +5,5 @@ export default defineConfig({
 
   npmClient: "pnpm",
   plugins: [],
+  mpa: {}
 });
